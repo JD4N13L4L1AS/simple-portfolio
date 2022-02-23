@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .cyan-background {
+    @apply absolute z-10 inset-0 bg-gradient-to-r from-primary to-secondary shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-lg;
+  }
+}
+
 @layer utilities {
   .from-primary {
     --tw-gradient-from: #1d99ac;
@@ -11,5 +17,10 @@
 
   .to-secondary {
     --tw-gradient-to: #309e76;
+  }
+
+  .services-image {
+    width: 100%;
+    height: 220px;
   }
 }
