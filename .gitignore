@@ -1,4 +1,4 @@
-/node_modules
-.config.js
-package-lock.json
-package.json
+./node_modules
+./tailwind.config.js
+./package-lock.json
+./package.json
